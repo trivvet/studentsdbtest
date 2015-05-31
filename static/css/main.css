@@ -2,8 +2,12 @@
 h1, h2, h3, h4, h5, h6 {
 	font-weight:bold;
 }
+h5 {
+	text-align:center;
+}
 .alert {
 	margin-top:10px;
+	margin-bottom:10px;
 }
 #footer {
 	border-top:1px solid #dddddd;
@@ -20,4 +24,16 @@ h1, h2, h3, h4, h5, h6 {
 	background-color:#ffffff;
 	color:#555555;
 	line-height:30px;
+}
+.head {
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	vertical-align:bottom;
+}
+.da{
+	width:25px;
+}
+.head_journal>th {
+	text-align:center;
 }
