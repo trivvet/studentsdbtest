@@ -34,6 +34,52 @@ h5 {
 .da{
 	width:25px;
 }
-.head_journal>th {
+.head_journal>th, .head_journal>td>div  {
 	text-align:center;
+}
+.checkbox>label {
+	padding:0;
+}
+#blankCheckbox {
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+}
+.form-group p {
+	text-align:right;
+	margin-right:20px;
+	padding-top:12px;
+}
+.form-group p label {
+	font-weight:normal;
+}
+.head_form {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.table_form {
+	margin-right:auto;
+	margin-left:auto;
+}
+.form-control {
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.bottom_area {
+	vertical-align:top;
+	padding-top:10px;
+}
+.bottom_area div p {
+	padding-top:0;
+}
+#buttoms {
+	text-align:left;
+	padding-top:20px;
+}
+.btn-close {
+	color:#428bca;
+	background-color:white;
+}
+#inputImage {
+	margin-top:12px;
 }
