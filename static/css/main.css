@@ -31,9 +31,6 @@ h5 {
 	margin-bottom:20px;
 	vertical-align:bottom;
 }
-.da{
-	width:25px;
-}
 .head_journal>th, .head_journal>td>div  {
 	text-align:center;
 }
@@ -45,41 +42,35 @@ h5 {
 	margin-left:auto;
 	position:relative;
 }
-.form-group p {
-	text-align:right;
-	margin-right:20px;
-	padding-top:12px;
+.form-group {
+	display:inline-block;
+	width:200px;
+	margin-bottom: 0px;
 }
-.form-group p label {
+.row {
+	margin-bottom: 10px;
+}
+.col-xs-2 p {
+	text-align:right;
+	margin-top:6px;
+}
+.col-xs-2 p label {
 	font-weight:normal;
 }
 .head_form {
 	text-align: center;
-	margin-bottom: 10px;
 }
-.table_form {
-	margin-right:auto;
-	margin-left:auto;
+.row:nth-child(8) {
+	margin-top:20px;
 }
-.form-control {
-	margin-bottom:10px;
-	margin-top:10px;
+#last_p {
+	margin-top:0;
 }
-.bottom_area {
-	vertical-align:top;
-	padding-top:10px;
-}
-.bottom_area div p {
-	padding-top:0;
-}
-#buttoms {
+.row:last-child {
 	text-align:left;
 	padding-top:20px;
 }
 .btn-close {
 	color:#428bca;
 	background-color:white;
-}
-#inputImage {
-	margin-top:12px;
 }
